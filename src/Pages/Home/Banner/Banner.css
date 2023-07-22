@@ -1,0 +1,11 @@
+.img{
+    position: relative;
+  }
+.text{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    font-size: 24px;
+    color: beige;
+ 
+}
