@@ -2,8 +2,8 @@ import React from "react";
 
 const Research = () => {
   return (
-    <div className="mt-10">
-      <h1 className="text-center font-semibold text-teal-400 text-3xl">
+    <div className="py-[70px]">
+      <h1 className="text-center font-semibold mb-3 text-teal-400 text-3xl">
         Research list
       </h1>
       <div className="overflow-x-auto">

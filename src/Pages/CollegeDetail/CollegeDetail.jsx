@@ -8,7 +8,7 @@ const CollegeDetail = () => {
   const [college, setCollege] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/data")
+    fetch("https://job-task-server-seven.vercel.app/data")
       .then((res) => res.json())
       .then((data) => {
         const selectedCollege = data.find(

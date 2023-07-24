@@ -33,17 +33,17 @@ export const router = createBrowserRouter([
         path: "oneCollege/:id",
         element: <OneCollege></OneCollege>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/data/${params.id}`),
+          fetch(`https://job-task-server-seven.vercel.app/data/${params.id}`),
       },
       {
         path: "/admission",
         element: <Admission></Admission>,
       },
       {
-        path: "/admissionForm",
+        path: "admissionForm/:id",
         element: <AdmissionForm></AdmissionForm>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/data/${params.id}`),
+          fetch(`https://job-task-server-seven.vercel.app/data/${params.id}`),
       },
       {
         path: "/mycollege",

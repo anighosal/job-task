@@ -4,7 +4,7 @@ import CollegeCard from "../CollegeCard/CollegeCard";
 const TopCollege = () => {
   const [colleges, setColleges] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/data")
+    fetch("https://job-task-server-seven.vercel.app/data")
       .then((res) => res.json())
       .then((data) => {
         setColleges(data);

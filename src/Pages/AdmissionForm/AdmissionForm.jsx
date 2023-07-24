@@ -1,20 +1,42 @@
 import React, { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProviders";
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useLocation } from "react-router-dom";
 
 const AdmissionForm = () => {
-  const service = useLoaderData();
-  const { _id, collegeName, collegeImage } = service;
+  const { _id, collegeName, collegeImage } = useLoaderData();
 
   const { user } = useContext(AuthContext);
 
   const handleAdmission = (event) => {
     event.preventdefault();
+
+    const form = event.target;
+    const name = form.name.value;
+    const email = form.email.value;
+    const photo = form.photo.value;
+    const subject = form.subject.value;
+    const number = form.number.value;
+
+    const address = form.address.value;
+    const date = form.date.value;
+    const confirm = {
+      candidate: name,
+      email,
+      photo,
+      subject,
+      number,
+      address,
+      date,
+    };
+    console.log(confirm);
   };
+  const handleConfirm = () => {};
   return (
-    <div>
-      <h2>{collegeName}</h2>
-      <form>
+    <div className="py-[150px] bg-slate-400 px-[100px]">
+      <h2 className="text-teal-600 text-center font-bold text-3xl">
+        {collegeName}
+      </h2>
+      <form onSubmit={handleAdmission}>
         <div className="form-control">
           <label className="label">
             <span className="label-text">Name</span>
@@ -34,6 +56,7 @@ const AdmissionForm = () => {
             type="email"
             name="email"
             placeholder="email"
+            defaultValue={user?.email}
             className="input input-bordered"
           />
         </div>
@@ -88,11 +111,14 @@ const AdmissionForm = () => {
           />
         </div>
         <div className="form-control mt-6">
-          <input
-            className="btn bg-teal-400 inline-block text-white"
-            type="submit"
-            value="Admission Confirm"
-          />
+          <div className="form-control mt-6">
+            <button
+              className="btn btn-block bg-teal-400 text-blue-500 font-bold text-2xl"
+              onClick={handleConfirm}
+            >
+              Admission Confirm
+            </button>
+          </div>
         </div>
       </form>
     </div>

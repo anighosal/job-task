@@ -15,7 +15,7 @@ const OneCollege = () => {
     sports,
   } = colleges;
 
-  fetch("http://localhost:5000/data/${params.id}")
+  fetch("https://job-task-server-seven.vercel.app/data/${params.id}")
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
