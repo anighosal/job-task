@@ -1,0 +1,95 @@
+ [
+    {
+      "collegeName": "ABC University",
+      "collegeImage": "https://www.linkpicture.com/q/college1.jpg",
+      "collegeRating": "4.5",
+      "admissionDates": "August 1 - August 15, 2023",
+      "researchCount": "120",
+      "events": "Annual Fest, Tech Expo, Cultural Night",
+      "eventsDetails": "The Annual Fest is a grand celebration of talent and creativity. The Tech Expo showcases the latest technological innovations by students. The Cultural Night features dance, music, and drama performances.",
+      "researchHistory": "Established in 1950, ABC University is renowned for pioneering research in various scientific fields.",
+      "researchWorks": "The university's research projects include groundbreaking studies in physics, chemistry, biology, and environmental science.",
+      "sports": "Football, Basketball, Tennis",
+      "sportsCategories": "ABC University excels in a variety of sports categories, including team sports like football and basketball, and individual sports like tennis.",
+      "admissionProcess": "To apply for admission, candidates must submit an online application form and attend a competitive entrance exam. Shortlisted candidates will be called for a personal interview.",
+      "detailsRoute": "/college/abc-university"
+    },
+    {
+      "collegeName": "XYZ College",
+      "collegeImage": "https://www.linkpicture.com/q/college2_1.jpg",
+      "collegeRating": "4.2",
+      "admissionDates": "July 15 - July 31, 2023",
+      "researchCount": "90",
+      "events": "College Fair, Debate Competition, Music Fest",
+      "eventsDetails": "The College Fair provides a platform for students to explore various educational opportunities. The Debate Competition encourages students to showcase their argumentative and communication skills. The Music Fest features performances by talented musicians from the college.",
+      "researchHistory": "XYZ College is a leading research center for arts and humanities, promoting creative expression and critical thinking.",
+      "researchWorks": "The college's research focuses on literature, history, philosophy, and performing arts, contributing to the cultural enrichment of society.",
+      "sports": "Cricket, Swimming, Badminton",
+      "sportsCategories": "XYZ College emphasizes both traditional sports like cricket and modern sports like swimming and badminton.",
+      "admissionProcess": "Interested candidates can obtain the application form from the college website or the admission office. The selection process includes a written test and a personal interview.",
+      "detailsRoute": "/college/xyz-college"
+    },
+    {
+      "collegeName": "PQR Institute",
+      "collegeImage": "https://www.linkpicture.com/q/college3.jpg",
+      "collegeRating": "4.8",
+      "admissionDates": "September 1 - September 20, 2023",
+      "researchCount": "80",
+      "events": "Science Expo, Literary Fest, Dance Competition",
+      "eventsDetails": "The Science Expo showcases innovative scientific projects and research by students. The Literary Fest celebrates literature through poetry recitations, storytelling, and book discussions. The Dance Competition is a vibrant display of dance forms from different cultures.",
+      "researchHistory": "PQR Institute is known for its innovative research in engineering and technology, with a focus on sustainable solutions.",
+      "researchWorks": "The institute's research includes advancements in renewable energy, smart technologies, and eco-friendly materials.",
+      "sports": "Volleyball, Athletics, Chess",
+      "sportsCategories": "PQR Institute encourages students to participate in sports like volleyball and athletics for physical fitness and mental well-being. Chess is also promoted as a mind-stimulating sport.",
+      "admissionProcess": "Prospective students can apply online through the institute's website. Admission is based on the candidate's academic performance and performance in the institute's entrance examination.",
+      "detailsRoute": "/college/pqr-institute"
+    },
+    {
+      "collegeName": "YZm Institute",
+      "collegeImage": "https://www.linkpicture.com/q/college2_1.jpg",
+      "collegeRating": "4",
+      "admissionDates": "September 1 - September 20, 2023",
+      "researchCount": "100",
+      "events": "Science Expo, Literary Fest, Dance Competition",
+      "eventsDetails": "The Science Expo showcases innovative scientific projects and research by students. The Literary Fest celebrates literature through poetry recitations, storytelling, and book discussions. The Dance Competition is a vibrant display of dance forms from different cultures.",
+      "researchHistory": "PQR Institute is known for its innovative research in engineering and technology, with a focus on sustainable solutions.",
+      "researchWorks": "The institute's research includes advancements in renewable energy, smart technologies, and eco-friendly materials.",
+      "sports": "Volleyball, Athletics, Chess",
+      "sportsCategories": "YZm Institute encourages students to participate in sports like volleyball and athletics for physical fitness and mental well-being. Chess is also promoted as a mind-stimulating sport.",
+      "admissionProcess": "Prospective students can apply online through the institute's website. Admission is based on the candidate's academic performance and performance in the institute's entrance examination.",
+      "detailsRoute": "/college/pqr-institute"
+    },
+    {
+      "collegeName": "vwx Institute",
+      "collegeImage": "https://www.linkpicture.com/q/college3.jpg",
+      "collegeRating": "3.8",
+      "admissionDates": "September 1 - September 20, 2023",
+      "researchCount": "90",
+      "events": "Science Expo, Literary Fest, Dance Competition",
+      "eventsDetails": "The Science Expo showcases innovative scientific projects and research by students. The Literary Fest celebrates literature through poetry recitations, storytelling, and book discussions. The Dance Competition is a vibrant display of dance forms from different cultures.",
+      "researchHistory": "VWX Institute is known for its innovative research in engineering and technology, with a focus on sustainable solutions.",
+      "researchWorks": "The institute's research includes advancements in renewable energy, smart technologies, and eco-friendly materials.",
+      "sports": "Volleyball, Athletics, Chess",
+      "sportsCategories": "VWX Institute encourages students to participate in sports like volleyball and athletics for physical fitness and mental well-being. Chess is also promoted as a mind-stimulating sport.",
+      "admissionProcess": "Prospective students can apply online through the institute's website. Admission is based on the candidate's academic performance and performance in the institute's entrance examination.",
+      "detailsRoute": "/college/pqr-institute"
+    },
+    {
+      "collegeName": "STU Institute",
+      "collegeImage": "https://www.linkpicture.com/q/college1.jpg",
+      "collegeRating": "4.8",
+      "admissionDates": "September 1 - September 20, 2023",
+      "researchCount": "89",
+      "events": "Science Expo, Literary Fest, Dance Competition",
+      "eventsDetails": "The Science Expo showcases innovative scientific projects and research by students. The Literary Fest celebrates literature through poetry recitations, storytelling, and book discussions. The Dance Competition is a vibrant display of dance forms from different cultures.",
+      "researchHistory": "STU Institute is known for its innovative research in engineering and technology, with a focus on sustainable solutions.",
+      "researchWorks": "The institute's research includes advancements in renewable energy, smart technologies, and eco-friendly materials.",
+      "sports": "Volleyball, Athletics, Chess",
+      "sportsCategories": "STU Institute encourages students to participate in sports like volleyball and athletics for physical fitness and mental well-being. Chess is also promoted as a mind-stimulating sport.",
+      "admissionProcess": "Prospective students can apply online through the institute's website. Admission is based on the candidate's academic performance and performance in the institute's entrance examination.",
+      "detailsRoute": "/college/pqr-institute"
+    }
+  ]
+  
+  
+  

@@ -20,10 +20,12 @@ const Banner = () => {
             iteration="infinite"
             fillMode="none"
           >
-            <h3 className="text-4xl mb-2 text-zinc-50  text-bold">
+            <h3 className="text-4xl mb-2 text-zinc-50 font-bold">
               Building Minds, Reserving Futures
             </h3>
-            <p>Unlocking a World of Educational Opportunities!</p>
+            <p className="text-teal-400">
+              Unlocking a World of Educational Opportunities!
+            </p>
           </Animation>
 
           <div className="banner-input mt-2 text-black">
